@@ -1,0 +1,6 @@
+SELECT vendedor
+FROM comissoes
+GROUP BY vendedor
+HAVING (SUM(valor) >= 1024 AND COUNT(valor) = 3)
+    OR SUM(valor) > 1024
+ORDER BY vendedor ASC;

@@ -1,1 +1,3 @@
-# SQL_task
+# SQL task
+
+Given the Students, Friends, and Packages tables below, you must choose the MySQL query that displays the names of students whose best friends received a LESS salary than them. The names must be ordered by the salary offered to best friends, from HIGHEST to LOWEST salary. It is guaranteed that no two students will have the same salary offer. The "Students" table contains two columns: ID and Name. The "Friends" table contains two columns: ID and Friend_ID (this being the ONLY best friend). The "Packages" table contains two columns: ID and Salary (salary offered in $ thousands per month).
